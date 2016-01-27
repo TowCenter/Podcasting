@@ -1,11 +1,11 @@
 A Guide to Podcasting
 
-\
-*Many thanks to Elizabeth Boylan, Pete Brown, Fergus Pitt, Benjamen
+\*Many thanks to Elizabeth Boylan, Pete Brown, Fergus Pitt, Benjamen
 Walker, Susan McGregor, and Emily Bell of the Tow Center for Digital
 Journalism for their support. Special thanks to Claire Wardle for
-generously giving me her time and fantastic feedback.*\
- *Also thanks to all those who took the time to speak with me (on or off
+generously giving me her time and fantastic feedback.*
+
+\*Also thanks to all those who took the time to speak with me (on or off
 the record) for this project: Nick Quah (Panoply, Hot Pod), Robert S.
 Boynton (NYU), Tom Webster (Edison Research), Noah Shanok (Stitcher),
 Mark DiCristina (MailChimp), Jim Colgan (Audible), Brendan Monaghan
