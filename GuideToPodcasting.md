@@ -1,9 +1,9 @@
-***Acknowledgements***
-Many thanks to Elizabeth Boylan, Pete Brown, Fergus Pitt, Benjamen
+\
+*Many thanks to Elizabeth Boylan, Pete Brown, Fergus Pitt, Benjamen
 Walker, Susan McGregor, and Emily Bell of the Tow Center for Digital
 Journalism for their support. Special thanks to Claire Wardle for
-generously giving me her time and fantastic feedback.
-Also thanks to all those who took the time to speak with me (on or off
+generously giving me her time and fantastic feedback.*\
+ *Also thanks to all those who took the time to speak with me (on or off
 the record) for this project: Nick Quah (Panoply, Hot Pod), Robert S.
 Boynton (NYU), Tom Webster (Edison Research), Noah Shanok (Stitcher),
 Mark DiCristina (MailChimp), Jim Colgan (Audible), Brendan Monaghan
@@ -15,8 +15,9 @@ Exploder*), Erik Diehn (Midroll Media), Steve Wilson (Apple), Seth Lind
 (*This American Life*), Parviz Parvizi (Clammr), Matt Lieber (Gimlet),
 Sarah van Mosel (New York Public Radio), Caitlin Thompson (Acast), Andy
 Bowers (Panoply), Jaclyn Friedman (Yes Means Yes), Mitra Kaboli (The
-Heart), Benny Becker (Israel Story), and Aaron Mahnke (*Lore*). 
-*December 2015*
+Heart), Benny Becker (Israel Story), and Aaron Mahnke (*Lore*).*\
+*<span>
+JanuaryFebruaryMarchAprilMayJuneJulyAugustSeptemberOctoberNovemberDecember</span>*
 
 Executive Summary
 =================
@@ -66,58 +67,82 @@ Introduction
 Podcasting: A Brief History
 ---------------------------
 
-In 1999, a few developers at Netscape had an idea for how to aggregate
-content from a variety of sites so that a reader would never have to
-visit any one individually to check for the latest updates. Instead, the
-content would appear in one place automatically.[@WhatisRSS] They
-launched a prototype technology and [called it RDF Site
-Summary](https://en.wikipedia.org/wiki/RSS).[@RSSWiki] Today, we know
-this technology as RSS (Real Simple Syndication).
+In 1999, developers at Netscape had an idea for aggregating content from
+a variety of sites, so that readers would not have to visit their
+favorite sites individually to manually monitor the latest updates –
+instead, the content would appear simply, [^1] in one place.[@WhatisRSS]
+They launched a prototype and called it [RDF Site
+Summary](https://en.wikipedia.org/wiki/RSS).[@RSSWiki] Today, this
+technology is known as RSS (Real Simple Syndication).
 
 In its original iteration, the RSS feed could only syndicate text.
-However, in 2000, developers Dave Winer and Adam Curry adapted the feed
-so it could include audio. In September 2003, Winer advanced the
-software again, this time for a colleague at the Harvard Berkman Center,
-journalist Christopher Lydon. At the time, Lydon was “audioblogging,” or
-conducting in-depth audio interviews and inserting them into his blog
-posts as mp3s. Thanks to Winer’s adjustment, readers could now subscribe
-to Lydon’s blog and access the audio content automatically. During this
-process, Lydon became the host of the first podcast, Radio Open Source,
-which remains running to this day.[@PCHistoryWiki]
+However, in 2000, developer and media personality, Adam Curry,
+approached software developer Dave Winer with an idea to adapt the feed
+so it could include larger media objects, such as mp3s. Winer developed
+just such a software – and then another that could aggregate feeds from
+different sources. In early 2001, he used the nascent technology to
+aggregate songs by The Grateful Dead.[@WINER]
 
-Exactly one year later, reporting for The Guardian, Ben Hammersley wrote
-about various RSS technologies allowing audio to be downloaded, passed
-to iTunes, and transferred to an iPod; he christened it “podcasting.”
-The next month, *The New York Times* reported that people were
-podcasting everywhere, from the United States to Australia to Sweden. In
-November 2004, the first podcast hosting platform, Libsyn, launched. In
-2005, Public Radio International hosted its first daily news podcast,
-and one of the first podcast networks TWiT (This Week in Tech) made its
-debut. Then, in June, [Steve Jobs announced on a stage in Silicon
+In September 2003, while at Harvard University’s Berkman Center, Winer
+showed the software to a fellow colleague, Christopher Lydon, a
+journalist who had been conducting in-depth audio interviews and
+inserting them as mp3s into his
+[blog](http://blogs.harvard.edu/lydondev/) posts (Winer called it [“A
+weblog for the
+ears”](http://scripting.com/davenet/2003/07/31/chrisLydonsWeblogForTheEar.html)[@WINER2]).
+Once Lydon incorporated Winer’s technology, readers could subscribe to
+Lydon’s blog and access the audio content automatically. One month
+later, a blogger named Harold Gilchrist referenced the blog when he
+hosted a session on “audioblogging” at the first ever BloggerCon, an
+annual conference that brought many central figures in the nascent
+blogosphere together.[@Solutions]
+
+Galvanized by Lydon’s success, Adam Curry developed the prototype of
+software that allowed audio to be downloaded, passed to iTunes, and
+automatically transferred to mp3 players. To test it, Curry launched
+*Daily Source Code*, arguably the first podcast, in August
+2004.[^2][@Web2] A month later, Ben Hammersley, reporting for *The
+Guardian*, suggested various possible monikers for the technology,
+including “podcasting.”[@Solutions] The next month, *New York Times*
+reported that people were “podcasting” from the US to Australia to
+Sweden.<span>NYT2004</span> Indeed, in podcasting’s early days, the hope
+was that the medium would be a revolutionary format, accessible to any
+amateur with a microphone and an internet connection, that would open up
+and democratize media. This is why, in keeping with this mission, the
+podcasting technology developed by Winer, Curry and others was
+purposefully kept open source and open access.[@WINER]
+
+In November 2004, at BloggerCon III, Adam Curry led a session, not on
+“audioblogging,” but
+[“podcasting.”](http://web.archive.org/web/20130729212422id_/http://itc.conversationsnetwork.org/shows/detail275.html)[^3][@Solutions]
+That same month, the first podcast hosting platform, Libsyn, launched.
+In 2005, Public Radio International hosted its first daily news podcast,
+and TWiT (This Week in Tech), one of the first podcast networks,
+launched. Then, in June, [Steve Jobs announced on a stage in Silicon
 Valley](https://www.youtube.com/watch?v=K0KNLCbzZUw) that podcasts, and
 indeed an entire podcast directory, would be available in iTunes
 4.9.[@JobsVideo] By December, the New Oxford American Dictionary
 declared “podcast” the word of the year.[@PCHistoryWiki]
 
-In 2006, podcasting continued to ride the coattails of this hype. The
-Ricky Gervais Show became the most downloaded podcast in history, and
-the world’s first live podcast tour took to the road.[@PCHistoryWiki]
-*This American Life*, a weekly public radio program founded by Ira Glass
-in 1996, jumped on the bandwagon, making the show freely available as a
-podcast for the first time. Edison Research reported that at the time
-[22 percent of Americans were aware of the term podcasting and 11
-percent of the population had listened to a podcast at least
+In 2006, podcasting continued to ride the coattails of the hype. *The
+Ricky Gervais Show* became the most downloaded podcast in history. The
+first live podcast tour took place.[@PCHistoryWiki] *This American
+Life*, a weekly public radio program founded by Ira Glass in 1996,
+jumped on the bandwagon, making the show freely available as a podcast
+for the first time. Edison Research reported that [22 percent of
+Americans were aware of the term “podcasting” and 11 percent of the
+population had listened to a podcast at least
 once](http://www.edisonresearch.com/the-podcast-consumer-2015/).[@EdPCconsumer]
 
-Then the buzz subsided. Podcasting went under the radar, so to speak,
+Then the hype subsided. Podcasting went “under the radar,” so to speak,
 but it was growing slowly and steadily all the while. By 2014, Apple had
 one billion podcast subscribers. Edison Research reported that now [48
 percent of all Americans knew the term podcasting and 30 percent had
 listened to a podcast
 before](http://www.edisonresearch.com/the-podcast-consumer-2015/).[@EdPCconsumer]
-Then in October, *This American Life* launched a spin-off show—one that
-would be released in installments, or serially—each week. It was called
-*Serial*.
+Then in October, *This American Life* launched a spin-off show, one that
+would be released in installments, or serially, each week. They called
+it *Serial*.
 
 The So-Called Serial Effect
 ---------------------------
@@ -166,6 +191,10 @@ have to acquire.[@lind]
 
 ![](graphics/PODCAST15_EdPCconsumer_listened.jpg)
 
+<span>Figure 1: Percentage of Americans who have listened to a podcast
+from 2006 to 2015, via “The Podcast Consumer 2015” report, Edison
+Research.</span>
+
 When *Serial* launched, it was the perfect storm: fantastically
 reported, edge-of-your-seat content released just as for thousands of
 iPhone users podcasts were suddenly easier to find, subscribe to, and
@@ -189,6 +218,9 @@ Podcasting is still far from meeting radio’s dominance in terms of
 audience penetration or financial investment.
 
 ![](graphics/PODCAST15_Trends_podcast.png)
+
+<span>Figure 2: Frequency of “podcast” as a search term, from 2005 to
+2015, via Google Trends.</span>
 
 So what has changed since *Serial*? First, improved technology has made
 podcasts easier to consume. Second, [consumers are becoming more aware
@@ -312,6 +344,9 @@ The Growth of Mobile
 
 ![](graphics/PODCAST15_KPCB_Mobile.png)
 
+<span>Figure 3: Time spent on mobile phones overtakes desktop usage in
+2014. By KPCB, accessed via SmartInsights.com</span>
+
 [According to a report on mobile technology trends from
 KPCB](http://www.smartinsights.com/internet-marketing-statistics/insights-from-kpcb-us-and-global-internet-trends-2015-report/),
 Americans now use their smartphones more than any other device to access
@@ -339,6 +374,9 @@ consumers are generally listening alone, from beginning to end, and
 engaging intimately with the material.[@Stengel]
 
 ![](graphics/PODCAST15_EdInfinite_devices.png)
+
+<span>Figure 4: Podcast listening according to device. “The Infinite
+Dial 2015,” Edison Research.</span>
 
 This is the kind of insight that podcast creators have long suspected
 instinctively, but have not had the research to support their claims. As
@@ -393,7 +431,7 @@ Nevertheless, Mark DiCristina has found that:
 
 > People typically don’t mind the ads because they’re read by the hosts
 > and integrated into the content in a way that’s more natural than in
-> other mediums ... there’s a transference of credibility that happens
+> other mediums [...] there’s a transference of credibility that happens
 > there.[@mailchimp]
 
 Those podcasters unrestricted by the FCC guidelines that constrain
@@ -512,11 +550,11 @@ Clea Conner Chang, the director of marketing for *Intelligence Squared*,
 described the issue as a branding problem:
 
 People say, “What’s a podcast? How do I get a podcast?” It has an
-inherent branding problem. ... It’s just radio on demand. You can hear
+inherent branding problem. [...] It’s just radio on demand. You can hear
 your favorite show any time, and they just don’t realize how it works
 yet, how convenient it is. It wasn’t until a couple of years ago that
 streaming video became something with mass appeal, and this is streaming
-audio. It still hasn’t made that association. ... Podcasting is on
+audio. It still hasn’t made that association. [...] Podcasting is on
 this precipice of being something understood by the masses—it’s not
 there yet.[@chang]
 
@@ -536,6 +574,10 @@ Podcast”video, in which he and his elderly neighbor explain how
 accessible podcasts really are.[@iramary]
 
 ![](graphics/PODCAST15_clammrfuture_android.jpg)
+
+<span>Figure 5: iOS users account for over 80 percent of podcast
+listening, Android users for just 16 percent. Clammr “Future of
+Podcasting 2015” report.</span>
 
 Moreover, while podcast listening remains strong on iOS, and Apple’s
 native podcast app continues to improve, Android users—whose numbers are
@@ -558,6 +600,9 @@ and access their content.[@Walch]
 
 ![](graphics/PODCAST15_clammrfuture_drivers.jpg)
 
+<span>Figure 6: Social media and word of mouth drive listeners to
+podcasts. Clammr “Future of Podcasting 2015” report.</span>
+
 With or without an app, searching for podcasts remains somewhat
 difficult on iOS and Android alike. The same is true for discovering new
 podcasts. According to [Clammr’s 2015 survey of
@@ -569,7 +614,7 @@ that word of mouth will remain the most popular way podcasts are
 discovered and shared.[@Walch] Others, such as Acast’s Caitlin Thompson
 and Panoply’s Andy Bowers, point to Netflix, which has successfully used
 algorithms to aid viewer discovery, as a potential reference point for
-podcasting’s future.[@thompson, @bowers]
+podcasting’s future.[@thompson] [@bowers]
 
 Companies such as [Clammr](http://www.clammr.com/) have emerged to try
 to make audio—a “fundamentally not social” technology in the words of
@@ -711,7 +756,7 @@ traditionally utilized podcasts for direct response ads (in which the
 host gives listeners a code or URL to receive a discounted service;
 these ads’ success have allowed podcasts to charge high rates).[@bowers]
 However, brand advertisers are becoming more prevalent. Although
-CPMs[^1] vary depending on audience quality and the level of host
+CPMs[^4] vary depending on audience quality and the level of host
 attention the ad receives, podcast advertising is, according to
 DiCristina, remarkably cost-effective compared to advertising in other
 media.[@mailchimp]
@@ -800,7 +845,7 @@ of event production can nullify revenue. Mitra Kaboli, a producer for
 The Heart, has been helping to produce live events for the podcast for
 the last three years:
 
-> We always sell out. ... Do we make money? Not enough to consider it
+> We always sell out. [...] Do we make money? Not enough to consider it
 > a revenue stream. The goal is to break even. It’s more about audience
 > engagement and ramping up excitement about X. Maybe it’s a new season;
 > maybe it’s an episode that we think is exceptionally good.[@heart]
@@ -933,7 +978,7 @@ great growth: approximately 125,000 downloads and streams in June,
 350,000 in July and in August, and 470,000 in September.”[@christa]
 
 In an effort to potentially reach new audiences and benefit from
-carriage fees[^2], *Reveal* also plans to air the show on the radio in
+carriage fees[^5], *Reveal* also plans to air the show on the radio in
 January.[@reveal]
 
 *Reveal* only began to hit sufficient download numbers to attract
@@ -1107,7 +1152,7 @@ Weiss-Berman’s words:
 
 > They change lives through their work, by doing these amazing
 > investigations, but their numbers are never going to be as high as a
-> 100 cutest cats list. That’s just the way the world works. ... What
+> 100 cutest cats list. That’s just the way the world works. [...] What
 > we’re doing is more in line with [them]. We’re not trying to get 10
 > million listens. We have things on the site that easily get 10 million
 > hits. We’re trying to do something that shows that BuzzFeed has many
@@ -1127,7 +1172,7 @@ With Another Round having proven popular with readers, BuzzFeed has
 already been able to generate advertising revenue without even really
 trying: “When I first started,” Weiss-Berman confessed, “they said just
 worry about the content, don’t worry about the money making stuff. We’ll
-revisit that a year in. ... We got so much interest quickly that I
+revisit that a year in. [...] We got so much interest quickly that I
 [thought], it’s crazy for us to say no to free money. Within three
 months, we were doing a trial thing.”[@wb]
 
@@ -1286,7 +1331,7 @@ recognize the name, but their relationships will be with the individual
 brands the network carries. Of course, as Bowers pointed out to me, the
 parallel falls apart when you consider that Netflix is a service you pay
 for and so is invested in keeping you within its ecosystem: “We want to
-get out to as many people as possible ... We want to be recognized as
+get out to as many people as possible [...] We want to be recognized as
 a purveyor of producers.”[@bowers]
 
 ### Takeaways
@@ -1387,7 +1432,7 @@ American Life* has never put a paywall on its content, as Seth Lind
 explained:
 
 > Some people, when we started doing podcast sponsorships, said, “I
-> would pay to not hear the sponsorship” ..., but we just want people
+> would pay to not hear the sponsorship” [...], but we just want people
 > to hear the show. We don’t want to have a paywall on the actual
 > content because that goes against the idea of having the largest
 > audience possible to hear what we feel are important stories.[@lind]
@@ -1462,7 +1507,7 @@ podcasts have been exempt from the company mandate of virality:
 > We’re not trying to get 10 million listens. We have things on the site
 > that easily get 10 million hits. We’re trying to do something that
 > shows that BuzzFeed has many different sides. We’re trying to dive
-> deeper ... That’s what BuzzFeed is great at—the things that make a
+> deeper [...] That’s what BuzzFeed is great at—the things that make a
 > bunch of money can support the things that make less money.[@wb]
 
 Examples include: BuzzFeed, Audible, Panoply (podcasts add value to
@@ -1571,7 +1616,7 @@ Hrishikesh Hirway, the creator of *Song Exploder*, which now belongs to
 Radiotopia, explained that a network helped his show overcome what is
 generally an independent podcast’s greatest challenge: growing an
 audience from zero. “Podcasting is so saturated, the pyramid is broad at
-the base ... I wanted to skip the hurdles of why you should take the
+the base [...] I wanted to skip the hurdles of why you should take the
 time to listen to what I made. That head start—that was the biggest
 advantage,” he said.[@hirway] (For an example of a podcast that has made
 the leap without network support, see my [case study of
@@ -1606,7 +1651,7 @@ decision to distribute independently thusly:
 > They’re still going to NPR to see this content. They’re still thinking
 > of this as an NPR show, even though we’ve always been produced
 > independently. So it’s about creating that recognition with our own
-> audience. ... That’s going to be part of the next frontier for us.
+> audience. [...] That’s going to be part of the next frontier for us.
 > Reaching this great audience that engages with our content and
 > generates revenue for our brand.[@chang]
 
@@ -1614,7 +1659,7 @@ decision to distribute independently thusly:
 distribute independently and became a public benefit corporation owned
 and operated by Ira Glass. Seth Lind, director of operations, explained,
 “You get to a point when you’re at a size where you’re like, wait a
-second ... these are my listeners, they’re donating to my show. They
+second [...] these are my listeners, they’re donating to my show. They
 listen to my show. They don’t listen to the network!”[@lind]
 
 The second issue with networks is the lack of transparency regarding
@@ -1659,7 +1704,7 @@ formats, to the inclusion of a greater diversity of voices—has the
 potential to broaden podcast audiences (and advertisers) and make
 podcasting a medium that can compete in a saturated media market. In the
 words of Seth Lind, “The barrier is creativity, who has the next idea
-for something truly new. ... I think someone’s going to make The
+for something truly new. [...] I think someone’s going to make The
 Breaking Bad of audio, and you’re going to realize: this is as good as
 TV, but I’m listening in my commute, and it’s free!”[@lind] Caitlin
 Thompson agreed that creativity and diversity will be key: “I want to
@@ -1675,7 +1720,7 @@ is bright:
 > things are so disaggregated. We really hear from new voices, new
 > communities. The costs have gone down for production; the distribution
 > models are pretty inexpensive. I think that these are really exciting
-> times. ... We’re in this transitional phase right now, where old
+> times. [...] We’re in this transitional phase right now, where old
 > rules don’t really apply, but the new rules haven’t yet been
 > created.[@hoffman]
 
@@ -2079,342 +2124,381 @@ c. Recommended Resources
     2015](http://www.slideshare.net/clammrapp/20150617-future-of-podcasting-2015-clammr-v-f)”
     report
 
-Footnotes
+Citations
 =========
-
-i: See glossary for definition.
-
-ii: See glossary for definition.
-
 Citations
 ======
+
+1. Darren Rowse, “What Is RSS?” problogger.net, http://www.problogger.net/
 
 1. Darren Rowse, “What Is RSS?” problogger.net, http://www.problogger.net/what-is-rss/.
 
 2. “RSS,” Wikipedia, https://en.wikipedia.org/wiki/RSS.
 
-3. “History of Podcasting,” Wikipedia, https://en.wikipedia.org/wiki/History_of_podcasting.
+3. Winer, “A podcast about podcasting.”
 
-4. Steve Jobs Announces Switch to Intel and Podcasting (21 December 2013), https://www.youtube.com/watch?v=K0KNLCbzZUw.
+4. Dave Winer, “Chris Lydon’s weblog for the ears,” Scripting News, 31-Jul-03, http://scripting.com/davenet/2003/07/31/chrisLydonsWeblogForTheEar.html.
 
-5. “History of Podcasting.”
+5. Michael W. Geoghegan and Dan Klass, Podcast Solutions: The Complete Guideto Audio and Video Podcasting (Berkeley, CA.: FriendsofED, 2007), 2.
 
-6. Ibid.
+6. Paul Anderson, Web 2.0 and Beyond: Principles and Technologies (Boca Raton,FL.: CRC Press, 2012), 189.
 
-7. “The Podcast Consumer 2015,” Edison Research, 25 June 2015, http://www.edisonresearch.com/the-podcast-consumer-2015/.
+7. Geoghegan and Klass, Podcast Solutions: The Complete Guide to Audio and VideoPodcasting.
 
-8. Ibid.
+8. Winer, “A podcast about podcasting.”
 
-9. Max Linsky, “Longform Podcast #159: Ira Glass,” Longform, 23 Sept 2015, http://longform.org/posts/longform-podcast-159-ira-glass.
+9. Geoghegan and Klass, Podcast Solutions: The Complete Guide to Audio and VideoPodcasting.
 
-10. Jonah Bromwich, “After ’Serial,’ What Podcasts to Listen To,” The New YorkTimes, 2 October 2015, http://www.nytimes.com/2015/10/01/business/media/after-serial-what-podcasts-to-listen-to.html?_r=0.
+10. (21 December 2013), https://www.youtube.com/watch?v=K0KNLCbzZUw.
 
-11. Pete Davies, “Downloads, Listens, Listeners, and About Those Podcast Num-bers,” Medium, 12 December 2014, https://medium.com/@pete/downloads-listens-listeners-and-about-those-podcast-numbers-73a5ee3e2fca.
+11. “History of Podcasting,” Wikipedia, https://en.wikipedia.org/wiki/History_of_podcasting.
 
-12. Clark Buckner, “Libsyn Sees Record Podcast Network Growth in 2014,” Libsyn,19 February 2015, http://www.libsyn.com/wp-content/uploads/2015/06/PRLibsynNetGrowth021915Final.pdf.
+12. Ibid.
 
-13. Interview with Seth Lind, This American Life, in (21 August 2015).
+13. “The Podcast Consumer 2015,” Edison Research, 25 June 2015, http://www.edisonresearch.com/the-podcast-consumer-2015/.
 
-14. Interview with Rob Walch, Libsyn, in (13 August 2015).
+14. Ibid.
 
-15. “The Podcast Consumer 2015.”
+15. Max Linsky, “Longform Podcast #159: Ira Glass,” Longform, 23 Sept 2015, http://longform.org/posts/longform-podcast-159-ira-glass.
 
-16. “State of the Media: Audio Today—How America Listens,” Nielsen, 5 March 2015,http ://www. nielsen.com/us/en/insights/reports/2015/state-of-the-media-audio-today-how-america-listens.html; “Statistics and Facts on the U.S. Radio In-dustry,” Statista, http://www.statista.com/topics/1330/radio/.
+16. Jonah Bromwich, “After ’Serial,’ What Podcasts to Listen To,” The New YorkTimes, 2 October 2015, http://www.nytimes.com/2015/10/01/business/media/after-serial-what-podcasts-to-listen-to.html?_r=0.
 
-17. “The Podcast Consumer 2015.”
+17. Pete Davies, “Downloads, Listens, Listeners, and About Those Podcast Num-bers,” Medium, 12 December 2014, https://medium.com/@pete/downloads-listens-listeners-and-about-those-podcast-numbers-73a5ee3e2fca.
 
-18. Buckner, “Libsyn Sees Record Podcast Network Growth in 2014.”
+18. Clark Buckner, “Libsyn Sees Record Podcast Network Growth in 2014,” Libsyn,19 February 2015, http://www.libsyn.com/wp-content/uploads/2015/06/PRLibsynNetGrowth021915Final.pdf.
 
-19. “Panoply Acquires Next Generation Ad Management and CMS Technology forPodcasters and Podcast Networks,” Panoply Media, 11 August 2015, http://panoplymedia.tumblr.com/post/126434082888/panoply-acquires-next-generation-ad-management-and.
+19. , in (21 August 2015).
 
-20. Ben Sisario, “WNYC to Open New Podcast Division,” The New York Times,12 October 2015, http://www.nytimes.com/2015/10/13/business/media/wnyc-to-open-new-podcast-division.html?smid=tw-share.Tow Center for Digital Journalism
+20. , in (13 August 2015).
 
-21. Josh Morgan, “How Podcasts Have Changed in Ten Years: By the Numbers,”Medium, 2 September 2015, https://medium.com/@slowerdawn/how-podcasts-have-changed-in-ten-years-by-the-numbers-720a6e984e4e.
+21. “The Podcast Consumer 2015.”
 
-22. Dave Chaffey, “Insights From KPCB U.S. and Global Internet Trends 2015 Re-port,” Smart Insights, 11 June 2015, http://www.smartinsights.com/internet-marketing-statistics/insights-from-kpcb-us-and-global-internet-trends-2015-report/.
+22. “State of the Media: Audio Today—How America Listens,” Nielsen, 5 March 2015,http ://www. nielsen.com/us/en/insights/reports/2015/state-of-the-media-audio-today-how-america-listens.html; “Statistics and Facts on the U.S. Radio In-dustry,” Statista, http://www.statista.com/topics/1330/radio/.
 
-23. Buckner, “Libsyn Sees Record Podcast Network Growth in 2014.”
+23. “The Podcast Consumer 2015.”
 
-24. Interview with Angela Stengel, ABC, in (3 August 2015).
+24. Buckner, “Libsyn Sees Record Podcast Network Growth in 2014.”
 
-25. Interview with Jenna Weiss-Berman, Buzzfeed, in (7 August 2015).
+25. “Panoply Acquires Next Generation Ad Management and CMS Technology forPodcasters and Podcast Networks,” Panoply Media, 11 August 2015, http://panoplymedia.tumblr.com/post/126434082888/panoply-acquires-next-generation-ad-management-and.
 
-26. Dave Chaffey, “Display Advertising Clickthrough Rates,” Smart Insights, 21 April2015, http://www.smartinsights.com/internet-advertising/internet-advertising-analytics/display-advertising-clickthrough-rates/.
+26. Ben Sisario, “WNYC to Open New Podcast Division,” The New York Times,12 October 2015, http://www.nytimes.com/2015/10/13/business/media/wnyc-to-open-new-podcast-division.html?smid=tw-share.
 
-27. Interview with Mark DiCristina, Mailchimp, in (3 September 2015).
+27. Josh Morgan, “How Podcasts Have Changed in Ten Years: By the Numbers,”Medium, 2 September 2015, https://medium.com/@slowerdawn/how-podcasts-have-changed-in-ten-years-by-the-numbers-720a6e984e4e.
 
-28. Interview with Sarah van Mosel, New York Public Radio, in (7 September 2015).
+28. Dave Chaffey, “Insights From KPCB U.S. and Global Internet Trends 2015 Re-port,” Smart Insights, 11 June 2015, http://www.smartinsights.com/internet-marketing-statistics/insights-from-kpcb-us-and-global-internet-trends-2015-report/.
 
-29. Interview with Caitlin Thompson, Acast, in (17 August 2015).
+29. Buckner, “Libsyn Sees Record Podcast Network Growth in 2014.”
 
-30. Adam Sachs, “The Wolf Den #88: David Raphael, CEO of Public Media Mar-keting,” Earwolf, 17 September 2015, https://soundcloud.com/the-wolf-den/88-david-raphael-ceo-of-public-media-marketing.
+30. , in (3 August 2015).
 
-31. Phil Edwards, “Why Podcasts Have Such Terrible Ads É,” Vox, 28 September2015, http://www.vox.com/2015/9/28/9408375/podcast-ads.
+31. , in (7 August 2015).
 
-32. Interview with Mark DiCristina, Mailchimp.
+32. Dave Chaffey, “Display Advertising Clickthrough Rates,” Smart Insights, 21 April2015, http://www.smartinsights.com/internet-advertising/internet-advertising-analytics/display-advertising-clickthrough-rates/.
 
-33. Interview with Matt Leiber, Gimlet Media, in (28 July 2015).
+33. , in (3 September 2015).
 
-34. Interview with Sarah van Mosel, New York Public Radio.
+34. , in (7 September 2015).
 
-35. Interview with Seth Lind, This American Life.
+35. , in (17 August 2015).
 
-36. Tyler Falk, “Ira Glass Starts Own Company for ’This American Life,’ ’Serial’,”Current, 10 July 2015, http://current.org/2015/07/ira-glass-starts-own-company-for-this-american-life-serial/.
+36. Adam Sachs, “The Wolf Den #88: David Raphael, CEO of Public Media Mar-keting,” Earwolf, 17 September 2015, https://soundcloud.com/the-wolf-den/88-david-raphael-ceo-of-public-media-marketing.
 
-37. Sisario, “WNYC to Open New Podcast Division.”
+37. Phil Edwards, “Why Podcasts Have Such Terrible Ads,” Vox, 28 September 2015,http://www.vox.com/2015/9/28/9408375/podcast-ads.
 
-38. Interview with Noah Shanok, Stitcher, in (17 September 2015).
+38. .
 
-39. Interview with Seth Lind, This American Life.
+39. , in (28 July 2015).
 
-40. Interview with Andy Bowers, Panoply, in (2 October 2015).
+40. .
 
-41. Ibid.
+41. .
 
-42. “Podcasts by the Numbers,” Midroll Media, http://awesome.midroll.com.
+42. Tyler Falk, “Ira Glass Starts Own Company for ’This American Life,’ ’Serial’,”Current, 10 July 2015, http://current.org/2015/07/ira-glass-starts-own-company-for-this-american-life-serial/.
 
-43. Interview with Clea Conner Chang, Intelligence Squared, in (30 July 2015).
+43. Sisario, “WNYC to Open New Podcast Division.”
 
-44. Interview with Mark DiCristina, Mailchimp.
+44. , in (17 September 2015).
 
-45. This American Life, “How to Listen to a Podcast With Ira and Mary,” 3 Oc-tober 2013, https://www.youtube.com/watch?v=8IPV2oSz8m4.
+45. .
 
-46. Lily Hay Newman, “Android Users Won’t Drop Money on Just Any App,” Slate,26 June 2014, http://www.slate.com/blogs/future_tense/2014/06/26/there_are_twice_as_many_android_users_as_ios_but_ios_users_spend_double.html.
+46. , in (2 October 2015).
 
-47. Buckner, “Libsyn Sees Record Podcast Network Growth in 2014.”75
+47. Ibid.
 
-48. Interview with Seth Lind, This American Life.
+48. “Podcasts by the Numbers,” Midroll Media, http://awesome.midroll.com.
 
-49. Interview with Rob Walch, Libsyn.
+49. , in (30 July 2015).
 
-50. “Clammr Future of Podcasting 2015,” Clammr, 16 July 2014, http://www.slideshare.net/clammrapp/20150617-future-of-podcasting-2015-clammr-v-f.
+50. .
 
-51. Interview with Rob Walch, Libsyn.
+51. This American Life, “How to Listen to a Podcast With Ira and Mary,” 3 Oc-tober 2013, https://www.youtube.com/watch?v=8IPV2oSz8m4.
 
-52. Interview with Caitlin Thompson, Acast.
+52. Lily Hay Newman, “Android Users Won’t Drop Money on Just Any App,” Slate,26 June 2014, http://www.slate.com/blogs/future_tense/2014/06/26/there_are_twice_as_many_android_users_as_ios_but_ios_users_spend_double.html.
 
-53. Interview with Andy Bowers, Panoply.
+53. Buckner, “Libsyn Sees Record Podcast Network Growth in 2014.”
 
-54. Interview with Parviz Parvizi, Clammr, in (25 July 2015).
+54. .
 
-55. Nicholas Quah, “This American Life’s Audio Hackathon, the End of an Indie Pod-cast, and Audible’s New Hire,” Hot Pod/Nieman Journalism Lab, 22 September 2015,http://www.niemanlab.org/2015/09/hot-pod-this-american-lifes-audio-hackathon-the-end-of-an-indy-podcast-and-audibles-new-hire/.
+55. .
 
-56. Kevin Roose, “What’s Behind the Great Podcast Renaissance?” New York Mag-azine, 30 October 2014, http://nymag.com/daily/intelligencer/2014/10/whats-behind-the-great-podcast-renaissance.html%5C#.
+56. “Clammr Future of Podcasting 2015,” Clammr, 16 July 2014, http://www.slideshare.net/clammrapp/20150617-future-of-podcasting-2015-clammr-v-f.
 
-57. John McDuling, “The Remarkable Resilience of Old-Fashioned Radio in the U.S.,”Quartz, 4 April 2014, http://qz.com/195349/the-remarkable-resilience-of-old-fashioned-radio-in-the-us/.
+57. .
 
-58. Interview with Matt Leiber, Gimlet Media.
+58. .
 
-59. Adam Clark Estes, “Chevy Is Bringing Apple CarPlay and Android Auto to theMasses,” Gizmodo, 27 May 2015, http://gizmodo.com/chevy-is-bringing-apple-carplay-and-android-auto-to-the-1707219276.
+59. .
 
-60. Richard Core, “How Your Car Is Becoming the Next Hot Tech Gadget,” Forbes,23 September 2015, http://www.forbes.com/sites/samsungbusiness/2015/09/23/how-your-car-is-becoming-the-next-hot-tech-gadget/.
+60. , in (25 July 2015).
 
-61. Jim Henry, “Average Car in the U.S. Now Over 10 Years Old, a Record,” Forbes,20 January 2012, http://www.forbes.com/sites/jimhenry/2012/01/20/average-car-in-the-u-s-now-over-10-years-old-a-record/.
+61. Nicholas Quah, “This American Life’s Audio Hackathon, the End of an Indie Pod-cast, and Audible’s New Hire,” Hot Pod/Nieman Journalism Lab, 22 September 2015,http://www.niemanlab.org/2015/09/hot-pod-this-american-lifes-audio-hackathon-the-end-of-an-indy-podcast-and-audibles-new-hire/.
 
-62. Eric Blattberg, “The Measurement Challenge Facing Podcast Advertising,” Digi-day, 5 February 2015, http://digiday.com/platforms/measurement-challenge-podcast-advertising/.
+62. Kevin Roose, “What’s Behind the Great Podcast Renaissance?” New York Mag-azine, 30 October 2014, http://nymag.com/daily/intelligencer/2014/10/whats-behind-the-great-podcast-renaissance.html#.
 
-63. Interview with Sarah van Mosel, New York Public Radio.
+63. John McDuling, “The Remarkable Resilience of Old-Fashioned Radio in the U.S.,”Quartz, 4 April 2014, http://qz.com/195349/the-remarkable-resilience-of-old-fashioned-radio-in-the-us/.
 
-64. Interview with Jake Shapiro, PRX, in (31 July 2015).
+64. .
 
-65. Interview with Nicholas Quah, Panoply, in (24 August 2015); Caitlin Petre, “TheTraffic Factories: Metrics at Chartbeat, Gawker Media, and The New York Times,”Tow Center for Digital Journalism, 7 May 2015, http ://towcenter . org/research/traffic-factories/.
+65. Adam Clark Estes, “Chevy Is Bringing Apple CarPlay and Android Auto to theMasses,” Gizmodo, 27 May 2015, http://gizmodo.com/chevy-is-bringing-apple-carplay-and-android-auto-to-the-1707219276.
 
-66. Interview with Sarah van Mosel, New York Public Radio.
+66. Richard Core, “How Your Car Is Becoming the Next Hot Tech Gadget,” Forbes,23 September 2015, http://www.forbes.com/sites/samsungbusiness/2015/09/23/how-your-car-is-becoming-the-next-hot-tech-gadget/.
 
-67. Interview with Mark DiCristina, Mailchimp.
+67. Jim Henry, “Average Car in the U.S. Now Over 10 Years Old, a Record,” Forbes,20 January 2012, http://www.forbes.com/sites/jimhenry/2012/01/20/average-car-in-the-u-s-now-over-10-years-old-a-record/.
 
-68. Interview with Sarah van Mosel, New York Public Radio.
+68. Eric Blattberg, “The Measurement Challenge Facing Podcast Advertising,” Digi-day, 5 February 2015, http://digiday.com/platforms/measurement-challenge-podcast-advertising/.
 
-69. Ibid.Tow Center for Digital Journalism
+69. .
 
-70. Interview with Matt Leiber, Gimlet Media.
+70. , in (31 July 2015).
 
-71. Interview with Andy Bowers, Panoply.
+71. , in (24 August 2015); Caitlin Petre, “The Traffic Factories: Metrics at Chart-beat, Gawker Media, and The New York Times,” Tow Center for Digital Journalism,7 May 2015, http://towcenter.org/research/traffic-factories/.
 
-72. Interview with Mark DiCristina, Mailchimp.
+72. .
 
-73. Interview with Jake Shapiro, PRX.
+73. .
 
-74. Radio Ambulante, “” Kickstarter, 25 January 2012, https://www.kickstarter.com/projects/1255653356/radio-ambulante/description.
+74. .
 
-75. Andrew Lapin, “Podcast With Limited Radio Airplay Sets Kickstarter Record,”Current, 20 August 2012, http://current.org/2012/08/podcast-with-limited-radio-airplay-sets-kickstarter-record/.
+75. Ibid.
 
-76. Vignesh Ramachandran, “Radiotopia Sets Record for Publishing and Radio Fund-ing on Kickstarter,” Knight Foundation blog, 14 November 2014, http://knightfoundation.org/blogs/knightblog/2014/11/14/radiotopia-sets-record-for-publishing-and-radio-funding-on-kickstarter/.
+76. .
 
-77. Justin Ellis, “Knight Foundation Invests $1 Million in Creator-Driven PodcastCollective Radiotopia,” Nieman Journalism Lab, 12 May 2015, http://www.niemanlab.org/2015/05/knight-foundation-invests-1-million-in-creator-driven-podcast-collective-radiotopia/.
+77. .
 
-78. James Risley, “Amazon’s Audible Hires NPR VP of Programming, Signaling Moveinto Original Podcasting,” GeekWire, 16 May 2015, http://www.geekwire.com/2015/amazon-makes-moves-into-original-podcasting-hires-npr-vp-of-programming/.
+78. .
 
-79. E-mail message to author, in (3 October 2015).
+79. .
 
-80. Interview with Andy Bowers, Panoply.
+80. Radio Ambulante, “” Kickstarter, 25 January 2012, https://www.kickstarter.com/projects/1255653356/radio-ambulante/description.
 
-81. Kaboli E-mail message to author; E-mail message to author, in (3 October 2015).
+81. Andrew Lapin, “Podcast With Limited Radio Airplay Sets Kickstarter Record,”Current, 20 August 2012, http://current.org/2012/08/podcast-with-limited-radio-airplay-sets-kickstarter-record/.
 
-82. Adam Sachs, “The Wolf Den #87: Lea Thau, Creator and Host of Strangers,”Earwolf, 3 September 2015, https://soundcloud.com/the-wolf-den/87-lea-thau-creator-and-host-of-strangers.
+82. Vignesh Ramachandran, “Radiotopia Sets Record for Publishing and Radio Fund-ing on Kickstarter,” Knight Foundation blog, 14 November 2014, http://knightfoundation.org/blogs/knightblog/2014/11/14/radiotopia-sets-record-for-publishing-and-radio-funding-on-kickstarter/.
 
-83. Tiziano Bonini and ed. BelŐn MoncĲs, Radio Audiences and Participation inthe Age of Network Society (2014), https://books .google.com/books ? id=8WS2BQAAQBAJ&pg=PA185&lpg=PA185&dq=radio+ambulante+kickstarter&source=bl&ots=D_sijGVPv6&sig=6-Ic6sydOaEX8B3_fiCn5_EPq2w&hl=en&sa=X&ved=0CDsQ6AEwBWoVChMIyO3Ehe-nyAIVyMo-Ch097g_B%5C#v=onepage&q=radio%20ambulante%20kickstarter&f=false.
+83. Justin Ellis, “Knight Foundation Invests $1 Million in Creator-Driven PodcastCollective Radiotopia,” Nieman Journalism Lab, 12 May 2015, http://www.niemanlab.org/2015/05/knight-foundation-invests-1-million-in-creator-driven-podcast-collective-radiotopia/.
 
-84. Interview with Christa Scharfenberg, Reveal, in (13 August 2015).
+84. James Risley, “Amazon’s Audible Hires NPR VP of Programming, Signaling Moveinto Original Podcasting,” GeekWire, 16 May 2015, http://www.geekwire.com/2015/amazon-makes-moves-into-original-podcasting-hires-npr-vp-of-programming/.
 
-85. Ibid.
+85. , in (3 October 2015).
 
-86. Ibid.
+86. .
 
-87. Ibid.
+87. Kaboli ; in (3 October 2015).
 
-88. Ibid.
+88. Adam Sachs, “The Wolf Den #87: Lea Thau, Creator and Host of Strangers,”Earwolf, 3 September 2015, https://soundcloud.com/the-wolf-den/87-lea-thau-creator-and-host-of-strangers.
 
-89. Ibid.
+89. Tiziano Bonini and ed. Belèn Moncùs, Radio Audiences and Participation in theAge of Network Society (New York: Routledge Studies in European CommunicationResearch and Education, 2014), https://books.google.com/books?id=8WS2BQAAQBAJ&pg=PA185&lpg=PA185&dq=radio+ambulante+kickstarter&source=bl&ots=D_sijGVPv6&sig=6-Ic6sydOaEX8B3_fiCn5_EPq2w&hl=en&sa=X&ved=0CDsQ6AEwBWoVChMIyO3Ehe-nyAIVyMo-Ch097g_B#v=onepage&q=radio%20ambulante%20kickstarter&f=false.
 
-90. Ibid.
+90. , in (13 August 2015).
 
-91. E-mail message to author, in (6 October 2015).
+91. Ibid.
 
-92. Interview with Christa Scharfenberg, Reveal.77
+92. Ibid.
 
-93. Scharfenberg E-mail message to author.
+93. Ibid.
 
-94. Interview with Christa Scharfenberg, Reveal.
+94. Ibid.
 
 95. Ibid.
 
 96. Ibid.
 
-97. Interview with Matt Leiber, Gimlet Media.
+97. , in (6 October 2015).
 
-98. E-mail message to author, in (9 October 2015); Ann Friedman, “The Economicsof the Podcast Boom,” Columbia Journalism Review, 20 March 2015, http://www.cjr.org/first_person/the_economics_of_the_podcast_boom.php.
+98. .
 
-99. Interview with Matt Leiber, Gimlet Media.
+99. Scharfenberg .
 
-100. Ibid.
+100. .
 
-101. Alex Blumberg, “StartUp Season 1,” Gimlet Media, 7 July 1905.
+101. Ibid.
 
-102. Interview with Matt Leiber, Gimlet Media.
+102. Ibid.
 
-103. Interview with Jenna Weiss-Berman, Buzzfeed.
+103. .
 
-104. Ibid.
+104. , in (9 October 2015); Ann Friedman, “The Economics of the Podcast Boom,”Columbia Journalism Review, 20 March 2015, http://www.cjr.org/first_person/the_economics_of_the_podcast_boom.php.
 
-105. Ibid.
+105. .
 
 106. Ibid.
 
-107. Ibid.
+107. Alex Blumberg, “StartUp Season 1,” Gimlet Media, 7 July 1905.
 
-108. Ibid.
+108. .
 
-109. Ibid.
+109. .
 
-110. “Panoply Acquires Next Generation Ad Management and CMS Technology forPodcasters and Podcast Networks.”
+110. Ibid.
 
-111. Interview with Andy Bowers, Panoply.
+111. Ibid.
 
-112. Slate, “Slate Group Announces Panoply, a Podcasting Network for Media Brandsand Authors,” 25 February 2015, http://www.slate.com/articles/briefing/slate_fare/2015/02/panoply_slate_group_announces_new_podcast_network.html.
+112. Ibid.
 
-113. “Panoply Acquires Next Generation Ad Management and CMS Technology forPodcasters and Podcast Networks.”
+113. Ibid.
 
-114. Interview with Brendan Monaghan, in (26 August 2015).
+114. Ibid.
 
-115. Interview with Brendan Monaghan; Joseph Lichterman, “How Podcasters AreTurning to New Technologies and Partnerships to Introduce Programmatic Ads,” Nie-man Journalism Lab, 24 August 2015, http://www.niemanlab.org/2015/08/how-podcasters-are-turning-to-new-technologies-and-partnerships-to-introduce-programmatic-ads/.
+115. Ibid.
 
-116. Jessica Toonkel, “General Electric Producing Science Fiction Podcast Series,”Reuters, 2 October 2015, http://www.reuters.com/article/2015/10/02/ge-podcasts-idUSL1N11Y1D120151002.
+116. “Panoply Acquires Next Generation Ad Management and CMS Technology forPodcasters and Podcast Networks.”
 
-117. Interview with Brendan Monaghan.
+117. .
 
-118. Interview with Andy Bowers, Panoply.
+118. Slate, “Slate Group Announces Panoply, a Podcasting Network for Media Brandsand Authors,” 25 February 2015, http://www.slate.com/articles/briefing/slate_fare/2015/02/panoply_slate_group_announces_new_podcast_network.html.
 
 119. “Panoply Acquires Next Generation Ad Management and CMS Technology forPodcasters and Podcast Networks.”
 
-120. Interview with Brendan Monaghan.Tow Center for Digital Journalism
+120. , in (26 August 2015).
 
-121. Interview with Nicholas Quah, Panoply.
+121. ; Joseph Lichterman, “How Podcasters Are Turning to New Technologies and Partnerships to Introduce Programmatic Ads,” Nieman Journalism Lab, 24 August2015, http://www.niemanlab.org/2015/08/how-podcasters-are-turning-to-new-technologies-and-partnerships-to-introduce-programmatic-ads/.
 
-122. Interview with Andy Bowers, Panoply.
+122. Jessica Toonkel, “General Electric Producing Science Fiction Podcast Series,”Reuters, 2 October 2015, http://www.reuters.com/article/2015/10/02/ge-podcasts-idUSL1N11Y1D120151002.
 
-123. Ibid.
+123. .
 
-124. Interview with Seth Lind, This American Life.
+124. .
 
-125. Interview with Sarah van Mosel, New York Public Radio.
+125. “Panoply Acquires Next Generation Ad Management and CMS Technology forPodcasters and Podcast Networks.”
 
-126. Interview with Andy Bowers, Panoply.
+126. .
 
-127. Interview with Aaron Mahnke, Lore, in (5 October 2015).
+127. .
 
-128. Interview with Jake Shapiro, PRX.
+128. .
 
-129. Risley, “Amazon’s Audible Hires NPR VP of Programming, Signaling Move intoOriginal Podcasting.”
+129. Ibid.
 
-130. Interview with Jenna Weiss-Berman, Buzzfeed.
+130. .
 
-131. Interview with Sarah van Mosel, New York Public Radio.
+131. .
 
-132. Interview with Clea Conner Chang, Intelligence Squared.
+132. .
 
-133. Blattberg, “The Measurement Challenge Facing Podcast Advertising .”
+133. , in (5 October 2015).
 
-134. adlin; Joe Nocera, “Stepping on a Slippery Slope,” The New York Times, 28 July2015, http://www.nytimes.com/2015/07/28/opinion/joe-nocera-stepping-on-a-slippery-slope.html.
+134. .
 
-135. Blumberg, “StartUp Season 1.”
+135. Risley, “Amazon’s Audible Hires NPR VP of Programming, Signaling Move intoOriginal Podcasting.”
 
-136. Interview with Andy Bowers, Panoply.
+136. .
 
-137. Nicholas Quah, “Patronage, Screenshorting Audio, and the Cleveland Browns,”Nieman Journalism Lab, 8 September 2015, http://www.niemanlab.org/2015/09/hot-pod-patronage-screenshorting-audio-and-the-cleveland-browns/.
+137. .
 
-138. Interview with Caitlin Thompson, Acast.
+138. .
 
-139. Interview with Nicholas Quah, Panoply.
+139. Blattberg, “The Measurement Challenge Facing Podcast Advertising.”
 
-140. Interview with Hrishikesh Hirway, Song Exploder, in (4 August 2015).
+140. adlin; Joe Nocera, “Stepping on a Slippery Slope,” The New York Times, 28 July2015, http://www.nytimes.com/2015/07/28/opinion/joe-nocera-stepping-on-a-slippery-slope.html.
 
-141. Vanessa Quirk, “The Curious Success of Lore: A Case Study,” Tow Center forDigital Journalism, 7 October 2015, http://towcenter.org/case-study-lore.
+141. Blumberg, “StartUp Season 1.”
 
-142. Interview with Mark DiCristina, Mailchimp.
+142. .
 
-143. Interview with Clea Conner Chang, Intelligence Squared.
+143. Nicholas Quah, “Patronage, Screenshorting Audio, and the Cleveland Browns,”Nieman Journalism Lab, 8 September 2015, http://www.niemanlab.org/2015/09/hot-pod-patronage-screenshorting-audio-and-the-cleveland-browns/.
 
-144. Interview with Seth Lind, This American Life.
+144. .
 
-145. Morgan, “How Podcasts Have Changed in Ten Years: By the Numbers.”
+145. .
 
-146. Interview with Jenna Weiss-Berman, Buzzfeed.
+146. , in (4 August 2015).
 
-147. Interview with Seth Lind, This American Life.
+147. Vanessa Quirk, “The Curious Success of Lore: A Case Study,” Tow Center forDigital Journalism, 7 October 2015, http://towcenter.org/case-study-lore.
 
-148. Interview with Caitlin Thompson, Acast.
+148. .
 
-149. Interview with Kerri Hoffman, PRX, in (6 August 2015).
+149. .
 
-150. Newman, “Android Users Won’t Drop Money on Just Any App.”
+150. .
 
-151. Buckner, “Libsyn Sees Record Podcast Network Growth in 2014.”
+151. Morgan, “How Podcasts Have Changed in Ten Years: By the Numbers.”
 
-152. Mark Bergen, “Google Brings Podcasting to Play Music, Swinging at Apple’sDominance,” re/code, 27 October 2015, http://recode.net/2015/10/27/google-brings-podcasting-to-play-music-swinging-at-apples-dominance/.
+152. .
 
-153. Ibid.79
+153. .
 
-154. Janko Roettgers, “Pandora Is Acquiring Music Streaming Service Rdio For $75Million (Exclusive),” Variety, 16 November 2015, http://variety.com/2015/digital/news/pandora-rdio-acquisition-1201641583/.
+154. .
 
-155. Laura Hazard Owen, “How did the GE-branded podcast The Message hit No.1 on iTunes? In part, by sounding nothing like an ad,” Nieman Journalism Lab, 30November 2015, http://www.niemanlab.org/2015/11/how-did-the-ge-branded-podcast-the-message-hit-no-1-on-itunes-in-part-by-sounding-nothing-like-an-ad/.
+155. , in (6 August 2015).
 
-156. Shannon Bond, “Brands tune into podcast production,” Financial Times, 23 Novem-ber 2015, http://www.ft.com/cms/s/0/d153ee44-8fd6-11e5-8be4-3506bf20cc2b.html%5C#ixzz3tASSyhK9.
+156. Newman, “Android Users Won’t Drop Money on Just Any App.”
 
-157. Owen, “How did the GE-branded podcast The Message hit No. 1 on iTunes? Inpart, by sounding nothing like an ad.”
+157. Buckner, “Libsyn Sees Record Podcast Network Growth in 2014.”
 
-158. Ibid.
+158. Mark Bergen, “Google Brings Podcasting to Play Music, Swinging at Apple’sDominance,” re/code, 27 October 2015, http://recode.net/2015/10/27/google-brings-podcasting-to-play-music-swinging-at-apples-dominance/.
 
-159. StartUp, “#17 Words About Words From Our Sponsors,” Gimlet Media, 19 Novem-ber 2015, https://gimletmedia.com/episode/17-words-about-words-from-our-sponsors/.
+159. Ibid.
 
-160. Maggie Taylor, “The Coin, the Quilt and the Superfan: Radiotopia FundraisingLessons,” PRX, 24 November 2015, http://blog.prx.org/2015/11/the-coin-the-quilt-and-the-superfan-radiotopia-fundraising-lessons/.
+160. Janko Roettgers, “Pandora Is Acquiring Music Streaming Service Rdio For $75Million (Exclusive),” Variety, 16 November 2015, http://variety.com/2015/digital/news/pandora-rdio-acquisition-1201641583/.
 
-161. Ramachandran, “Radiotopia Sets Record for Publishing and Radio Funding onKickstarter.”
+161. Laura Hazard Owen, “How did the GE-branded podcast The Message hit No.1 on iTunes? In part, by sounding nothing like an ad,” Nieman Journalism Lab, 30November 2015, http://www.niemanlab.org/2015/11/how-did-the-ge-branded-podcast-the-message-hit-no-1-on-itunes-in-part-by-sounding-nothing-like-an-ad/.
 
-162. Taylor, “The Coin, the Quilt and the Superfan: Radiotopia Fundraising Lessons.”
+162. Shannon Bond, “Brands tune into podcast production,” Financial Times, 23 Novem-ber 2015, http://www.ft.com/cms/s/0/d153ee44-8fd6-11e5-8be4-3506bf20cc2b.html#ixzz3tASSyhK9.
 
-163. Joseph Lichterman, “How PRX and Radiotopia are rethinking the public radiopledge drive for the podcast era,” Nieman Journalism Lab, 27 October 2015, http://www.niemanlab.org/2015/10/how-prx-and-radiotopia-are-rethinking-the-public-radio-pledge-drive-for-the-podcast-era/.
+163. Owen, “How did the GE-branded podcast The Message hit No. 1 on iTunes? Inpart, by sounding nothing like an ad.”
 
-164. “Podcasting Terms: Glossary,” WhatIs.com, http://whatis.techtarget.com/reference/Podcasting-Terms-Glossary.
+164. Ibid.
 
+165. StartUp, “#17 Words About Words From Our Sponsors,” Gimlet Media, 19 Novem-ber 2015, https://gimletmedia.com/episode/17-words-about-words-from-our-sponsors/.
 
+166. Maggie Taylor, “The Coin, the Quilt and the Superfan: Radiotopia FundraisingLessons,” PRX, 24 November 2015, http://blog.prx.org/2015/11/the-coin-the-quilt-and-the-superfan-radiotopia-fundraising-lessons/.
+
+167. Ramachandran, “Radiotopia Sets Record for Publishing and Radio Funding onKickstarter.”
+
+168. Taylor, “The Coin, the Quilt and the Superfan: Radiotopia Fundraising Lessons.”
+
+169. Joseph Lichterman, “How PRX and Radiotopia are rethinking the public radiopledge drive for the podcast era,” Nieman Journalism Lab, 27 October 2015, http://www.niemanlab.org/2015/10/how-prx-and-radiotopia-are-rethinking-the-public-radio-pledge-drive-for-the-podcast-era/.
+
+170. “Podcasting Terms: Glossary,” WhatIs.com, http://whatis.techtarget.com/reference/Podcasting-Terms-Glossary.
+
+171. Adam Sachs, “The Wolf Den #89: Erik Diehn, Midroll Media VP of Business Development,” Earwolf, 1 October 2015, https://soundcloud.com/the-wolf- den/
+89-erik-diehn-midroll-media-vp-of-business-development.
+
+[^1]: Although Lydon’s show, [Radio Open
+    Source](http://radioopensource.org/about/), is often credited as the
+    first podcast (and his 2003 interview with Winer [the first podcast
+    episode](http://blogs.harvard.edu/lydondev/2003/07/09/spoken-word-a-few-good-bloggers/)),
+    this claim is arguable as it depends upon one’s definition of
+    podcasting. I have called “Daily Source Code” the first podcast
+    because Curry’s show included the software script that allowed for
+    audio transfer to an mp3 device (which I am asserting is part of the
+    definition of a podcast); Lydon’s audioblog, while it included the
+    enclosure that allowed for audio to be accessed via RSS, did not
+    initially include this script.
+
+[^2]: See explanation in footnote above.
+
+[^3]: This section has been revised post-publication. Although the
+    report originally stated Christopher Lydon was the first podcaster,
+    it has been updated with more information regarding the
+    technological definition of podcasting (see footnote 1). The change
+    is not just technical; because Christopher Lydon was a professional
+    radio journalist before he was a podcaster, attributing podcasting’s
+    beginnings to him fosters a narrative that podcasting has grown from
+    radio. In fact, many other podcasts emerged around the same time as
+    Lydon’s and Curry’s, and most were by non-radio professionals.
+    [@WINER]
+
+[^4]: See glossary for definition.
+
+[^5]: See glossary for definition.
