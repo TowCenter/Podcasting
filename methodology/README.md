@@ -1,0 +1,21 @@
+Methodology
+ ===========
+ 
+ The purpose of this report is to address the changes happening in the podcasting space, with a focus on the business side, and to answer the three following questions: 
+
+ 1.  What are the business models currently in operation? 
+
+ 2.  To what extent have these business models proven successful? 
+
+ 3.  Do these business models seem viable/resilient in the long term? 
+
+ There is no one directory that includes all published podcasts available for study. The largest podcast directory is iTunes US; however, Apple has not published a dataset with this information. In June, I analyzed the Top 100 iTunes charts (cognizant that the top 100 does not mean the most downloaded, as iTunes rankings are sorted according to a private algorithm) and researched how each of these podcasts raises revenue. I did not, however, create a sufficiently large dataset from which I could draw overarching conclusions (for this type of analysis, I recommend you read sociologist <a href="https://medium.com/@slowerdawn/how-podcasts-have-changed-in-ten-years-by-the-numbers-720a6e984e4e">Josh Morgan’s piece on Medium</a><sup><a href=../citations/index.html>24</a></sup>). 
+
+ I built on this first phase of research by undertaking a review of the available literature, drawing particularly on industry reports such as Edison Research’s “<a href="http://www.edisonresearch.com/the-infinite-dial-2015/">The Infinite Dial 2015</a>” and “<a href="http://www.edisonresearch.com/the-podcast-consumer-2015/">The Podcast Consumer 2015</a>,” and Clammr’s “<a href="http://www.slideshare.net/clammrapp/20150617-future-of-podcasting-2015-clammr-v-f">Future of Podcasting 2015</a>.” I also undertook a number of interviews with podcasting professionals, attempting to interview a wide variety of stakeholders involved in the business side of podcasting, including academics (NYU Professor Robert Boynton), market researchers (Edison Research’s Tom Webster; Clammr’s Parviz Parvizi), advertisers (MailChimp’s Mark DiCristina), tech providers (Libsyn’s Rob Walch; Acast’s Caitlin Thompson; Stitcher’s Noah Shanok), network executives, and content creators. 
+
+ As well as understanding its business, I wanted to investigate podcasting from the perspective of individual podcast creators and those networks which produce multiple podcasts. I devised an initial list of interviewees based on my spreadsheet of the Top 100 podcasts (choosing those that had particularly successful, interesting, or unusual revenue streams/trajectories). As I conducted these interviews, I employed a snowball sampling technique, asking participants to recommend other interview subjects, thereby expanding the list based on those recommendations. This list included representatives from individual shows (*Reveal*, *Intelligence Squared*, *Song Exploder*) and the following networks/companies: Gimlet Media, Midroll Media, Panoply, Infinite Guest, Audible, BuzzFeed, PRX, the Australian Broadcasting Company, WBEZ, and New York Public Radio. Toward the end of my research, I sought out information from podcasters who could fill certain gaps in my research; for example, The Heart’s Mitra Kaboli and Israel Story’s Benny Becker answered an email inquiry about running live events, and Yes Means Yes’s Jaclyn Friedman and *Lore*’s Aaron Mahnke gave me insight into running podcasts without network support. 
+
+ Because this report gears toward a journalistic audience (both individuals interested in launching/sustaining podcasts and media outlets interested in pursuing podcasts), there are some significant, important subsets of the podcasting community that are conspicuously underrepresented—most notably comedy podcasts, talk radio podcasts, and self-help podcasts. 
+
+ I should also stress that this is a U.S.-centric report; because most media in the United States is privately funded, the expectations of consumer/foundational giving are substantially different than in countries with strong governmental support of media. Also, due to the fast-paced nature of this sphere, which changes on a daily basis, and the time required to publish, I should warn the reader that this report may be missing relevant information released after the final draft was submitted. 
+

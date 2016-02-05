@@ -42,7 +42,7 @@
   \ifthenelse{\boolean{@towcenter@twoside}}%
     {% two-side
       \renewcommand{\chaptermark}[1]{\markboth{##1}{}}%
-      \fancyhead[LE]{\textbf{\frankmedium\thepage\enskip\normalsize{\newlinetospace{\frankmedium{Crowdsourcing}}}}}% book title
+      \fancyhead[LE]{\textbf{\frankmedium\thepage\enskip\normalsize{\newlinetospace{\frankmedium{Podcasting}}}}}% book title
       %\fancyhead[RE]{\textbf{\frankmedium\thepage\quad\normalsize{\newlinetospace{\frankmedium{Chatapps}}}}}% book title      
       \fancyhead[RO]{{\newlinetospace{\frankmedium{\normalsize\textbf\leftmark}}\enskip{\frankmedium{\textbf\thepage}}}}% chapter title
       \fancyfoot[LE]{\textbf{\frankmedium\normalsize{\newlinetospace{\frankmedium{\qquad Columbia Journalism School}}}}}
